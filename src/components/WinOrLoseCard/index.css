@@ -1,0 +1,51 @@
+.cardBox {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Card {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: #ffffff33;
+  width: 60%;
+  padding-top: 35px;
+  padding-bottom: 35px;
+  border-radius: 10px;
+  border: 2px solid #ffffff33;
+}
+.scoreBoard {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.image {
+  height: 280px;
+}
+.head {
+  color: white;
+  height: 25px;
+  font-weight: 700;
+  margin-bottom: 50px;
+}
+.score {
+  font-size: 20px;
+}
+.para {
+  color: #6a59ff;
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+.btn {
+  background-color: #ffce27;
+  color: black;
+  font-size: 10px;
+  font-weight: bold;
+  border-width: 0px;
+  padding: 8px 15px 8px 15px;
+  border-radius: 10px;
+  cursor: pointer;
+}
